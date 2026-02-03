@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- 允许所有域名使用HTTPS（默认） -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+    
+    <!-- 允许特定域名使用HTTP（用于歌词API） -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">api.chartlyrics.com</domain>
+        <domain includeSubdomains="true">www.chartlyrics.com</domain>
+        <domain includeSubdomains="true">songlyrics.com</domain>
+        <domain includeSubdomains="true">www.songlyrics.com</domain>
+        <domain includeSubdomains="true">metrolyrics.com</domain>
+        <domain includeSubdomains="true">www.metrolyrics.com</domain>
+    </domain-config>
+</network-security-config>

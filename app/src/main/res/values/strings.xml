@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MiAudioPlay</string>
+    <string name="songs_tab">音乐</string>
+    <string name="playlists_tab">歌单</string>
+    <string name="settings_tab">设置</string>
+    <string name="now_playing">正在播放</string>
+    <string name="no_lyrics">暂无歌词</string>
+    <string name="unknown_artist">未知艺术家</string>
+    <string name="unknown_album">未知专辑</string>
+    <string name="create_playlist">创建歌单</string>
+    <string name="add_to_playlist">添加到歌单</string>
+    <string name="delete_playlist">删除歌单</string>
+    <string name="playlist_name">歌单名称</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="permission_required">需要存储权限才能访问音乐文件</string>
+    <string name="grant_permission">授予权限</string>
+    <string name="no_songs">未找到音乐文件</string>
+    <string name="shuffle">随机播放</string>
+    <string name="repeat_off">顺序播放</string>
+    <string name="repeat_all">列表循环</string>
+    <string name="repeat_one">单曲循环</string>
+</resources>
